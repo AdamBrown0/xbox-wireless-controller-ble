@@ -76,7 +76,7 @@ void ble_debug_setup() {
 void ble_debug_loop() {
 	if (doConnect || connected) {
 		if (ble_debug_connectToServer(*pServerAddress)) {
-			Serial.println("We are now connected to the BLE Server.");
+			Serial.println("We are now connected to the BLE Server. :)");
 			Serial.println("No reading debug yet :(");
 			connected = true;
 		} else {
