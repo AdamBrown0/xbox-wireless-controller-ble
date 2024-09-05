@@ -4,7 +4,11 @@
 #include "ble.hh"
 #include "ble_debug.hh"
 
+#ifdef DEBUG
 const bool debug = true;
+#else
+const bool debug = false;
+#endif
 
 void setup() {
     Serial.begin(9600);
