@@ -13,4 +13,4 @@ pio run
 ```
 
 ## Licence
-Distributed under the GPL 3.0 License. See [LICENCE](/LICENSE)
+Distributed under the GNU GPL Licence v3.0. See [LICENCE](LICENSE)
